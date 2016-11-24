@@ -1,0 +1,34 @@
+{
+  "name": "kanban",
+  "version": "1.0.0",
+  "description": "kanban",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tsc -p ./app",
+    "test": "mocha --reporter spec --slow 1",
+    "start": "node app/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alberto-hortelano/kanban.git"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "base",
+    "node"
+  ],
+  "author": "alberto hortelano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alberto-hortelano/kanban/issues"
+  },
+  "homepage": "https://github.com/alberto-hortelano/kanban#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

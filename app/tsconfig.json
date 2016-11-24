@@ -1,0 +1,19 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "removeComments": false,
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./js"
+  },
+  "filesGlob": [
+    "ts/**/*.ts",
+    "!ts/references/*"
+  ],
+  "include": [
+    "ts/**/*.ts"
+  ],
+  "exclude": [
+    "ts/references/*"
+  ]
+}
